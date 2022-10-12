@@ -1,0 +1,3 @@
+DEVICE
+BlueNRG-LP
+BlueNRG-LPS

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+  <project>
+        <path>$WS_DIR$\I2C_Polling.ewp</path>
+  </project>
+    <batchBuild>
+        <batchDefinition>
+            <name>BUILD_ALL</name>
+            <member>
+                <project>I2C_Polling</project>
+                <configuration>I2C_Polling</configuration>
+            </member>
+            <member>
+                <project>I2C_Polling</project>
+                <configuration>Master_board</configuration>
+            </member>
+            <member>
+                <project>I2C_Polling</project>
+                <configuration>Slave_board</configuration>
+            </member>
+        </batchDefinition>
+    </batchBuild>
+</workspace>

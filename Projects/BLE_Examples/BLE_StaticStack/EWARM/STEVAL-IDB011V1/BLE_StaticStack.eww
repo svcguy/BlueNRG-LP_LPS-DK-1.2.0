@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\BLE_StaticStack.ewp</path>
+    </project>
+    <batchBuild>
+        <batchDefinition>
+            <name>BUILD_ALL</name>
+            <member>
+                <project>BLE_StaticStack</project>
+                <configuration>Release</configuration>
+            </member>
+            <member>
+                <project>BLE_StaticStack</project>
+                <configuration>Basic</configuration>
+            </member>
+            <member>
+                <project>BLE_StaticStack</project>
+                <configuration>OTA_BTL_ResetManager</configuration>
+            </member>
+            <member>
+                <project>BLE_StaticStack</project>
+                <configuration>OTA_BTL_ResetManager_Basic</configuration>
+            </member>
+        </batchDefinition>
+    </batchBuild>
+</workspace>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\CORTEXM_MPU.ewp</path>
+  </project>
+<batchBuild>
+    <batchDefinition>
+      <name>BUILD_ALL</name>
+    <member>
+        <project>CORTEXM_MPU</project>
+      <configuration>Test_Access_NOT_permitted</configuration>
+      </member>
+    <member>
+        <project>CORTEXM_MPU</project>
+      <configuration>Test_Access_permitted</configuration>
+      </member>
+    <member>
+        <project>CORTEXM_MPU</project>
+      <configuration>CORTEXM_MPU</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+
+

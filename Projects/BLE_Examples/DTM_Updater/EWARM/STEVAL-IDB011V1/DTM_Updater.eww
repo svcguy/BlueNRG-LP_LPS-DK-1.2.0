@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\DTM_Updater.ewp</path>
+    </project>
+    <batchBuild>
+        <batchDefinition>
+            <name>BUILD_ALL</name>
+            <member>
+                <project>DTM_Updater</project>
+                <configuration>SPI</configuration>
+            </member>
+            <member>
+                <project>DTM_Updater</project>
+                <configuration>UART</configuration>
+            </member>
+        </batchDefinition>
+    </batchBuild>
+</workspace>

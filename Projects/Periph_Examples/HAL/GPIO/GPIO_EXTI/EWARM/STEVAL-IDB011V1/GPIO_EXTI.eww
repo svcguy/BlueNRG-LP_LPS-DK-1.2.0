@@ -1,0 +1,6 @@
+<workspace>
+  <project>
+    <path>$WS_DIR$\GPIO_EXTI.ewp</path>
+  </project>
+  <batchBuild />
+</workspace>

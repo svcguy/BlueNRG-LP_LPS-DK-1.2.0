@@ -1,0 +1,6 @@
+<workspace>
+  <project>
+    <path>$WS_DIR$\FLASH_EraseProgram.ewp</path>
+  </project>
+  <batchBuild />
+</workspace>

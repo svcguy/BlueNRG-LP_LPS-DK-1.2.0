@@ -1,0 +1,6 @@
+<workspace>
+  <project>
+    <path>$WS_DIR$\RTC_StandbyWakeUpTimer.ewp</path>
+  </project>
+  <batchBuild />
+</workspace>

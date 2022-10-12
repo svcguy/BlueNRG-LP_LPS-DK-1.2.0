@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\RADIO_OTA_RM.ewp</path>
+    </project>
+    <batchBuild>
+        <batchDefinition>
+            <name>build all</name>
+            <member>
+                <project>RADIO_OTA_RM</project>
+                <configuration>Client</configuration>
+            </member>
+            <member>
+                <project>RADIO_OTA_RM</project>
+                <configuration>Server_FixedImage</configuration>
+            </member>
+            <member>
+                <project>RADIO_OTA_RM</project>
+                <configuration>Server_Ymodem</configuration>
+            </member>
+        </batchDefinition>
+    </batchBuild>
+</workspace>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\RADIO_TxRx.ewp</path>
+  </project>
+<batchBuild>
+    <batchDefinition>
+      <name>build_all</name>
+    <member>
+        <project>RADIO_TxRx</project>
+      <configuration>Rx</configuration>
+      </member>
+    <member>
+        <project>RADIO_TxRx</project>
+      <configuration>Rx_2M</configuration>
+      </member>
+    <member>
+        <project>RADIO_TxRx</project>
+      <configuration>Tx</configuration>
+      </member>
+    <member>
+        <project>RADIO_TxRx</project>
+      <configuration>Tx_2M</configuration>
+      </member>
+    <member>
+        <project>RADIO_TxRx</project>
+      <configuration>Rx_Use_OTA_ResetManager</configuration>
+      </member>
+    <member>
+        <project>RADIO_TxRx</project>
+      <configuration>Tx_Use_OTA_ResetManager</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+
+

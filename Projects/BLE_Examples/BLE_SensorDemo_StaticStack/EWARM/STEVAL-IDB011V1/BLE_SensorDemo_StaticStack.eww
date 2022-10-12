@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\BLE_SensorDemo_StaticStack.ewp</path>
+    </project>
+    <batchBuild>
+        <batchDefinition>
+            <name>BUILD_ALL</name>
+            <member>
+                <project>BLE_SensorDemo_StaticStack</project>
+                <configuration>HigherApp_OTA</configuration>
+            </member>
+            <member>
+                <project>BLE_SensorDemo_StaticStack</project>
+                <configuration>LowerApp_OTA</configuration>
+            </member>
+            <member>
+                <project>BLE_SensorDemo_StaticStack</project>
+                <configuration>Release</configuration>
+            </member>
+        </batchDefinition>
+    </batchBuild>
+</workspace>

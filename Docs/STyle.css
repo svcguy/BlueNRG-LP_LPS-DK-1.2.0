@@ -1,0 +1,70 @@
+ h2:after, 
+ h3:after, 
+ h4:after {
+	position: absolute;
+	content: "";
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 5px;
+	border-radius: 2px;	
+}
+
+ h2:after { background: #002052; }
+ h3:after { background: #3BF; }
+ h4:after { background: #6Cf; }
+
+ h1 {
+	font-size: 34px;
+	line-height: 40px;
+	margin: 1em 0 .6em 0;
+	font-weight: normal;
+	font-family: 'Hammersmith One', sans-serif;	
+	position: relative;
+	color: #39a9dc;
+}
+
+ h2 {
+	margin: 1em 0 .6em 0;
+	background: #002052;
+	padding: 0 0 0 20px;
+	font-weight: normal;
+	color: white;
+	font-family: 'Hammersmith One', sans-serif;	
+	position: relative;
+	font-size: 28px;
+	line-height: 40px;
+}
+
+ h3 {
+	margin: 1em 0 .6em 0;
+	padding: 0 0 0 20px;
+	font-weight: normal;
+	color: black;
+	font-family: 'Hammersmith One', sans-serif;	
+	position: relative;
+	font-size: 24px;
+	line-height: 40px;
+}
+
+h3 a { 
+		font-weight: normal;
+		font-family: 'Hammersmith One', sans-serif;			
+		font-size: 24px; 
+	}
+
+ h4 { 
+	margin: 1em 0 .6em 0;
+	padding: 0 0 0 20px;
+	font-weight: normal;
+	color: black;
+	font-family: 'Hammersmith One', sans-serif;	
+	position: relative;
+	font-size: 18px;
+	line-height: 20px;
+}
+
+a {
+	font-family: 'Hammersmith One', sans-serif;	
+	font-size: 14px;
+}

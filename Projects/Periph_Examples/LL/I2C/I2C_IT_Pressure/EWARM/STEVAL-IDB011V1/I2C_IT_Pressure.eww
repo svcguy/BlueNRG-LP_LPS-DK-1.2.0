@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\I2C_IT_Pressure.ewp</path>
+    </project>
+    <batchBuild>
+        <batchDefinition>
+            <name>BATCH_BUILD</name>
+            <member>
+                <project>I2C_IT_Pressure</project>
+                <configuration>Release</configuration>
+            </member>
+        </batchDefinition>
+    </batchBuild>
+</workspace>

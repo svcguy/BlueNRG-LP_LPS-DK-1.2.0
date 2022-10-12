@@ -1,0 +1,6 @@
+<workspace>
+  <project>
+    <path>$WS_DIR$\GPIO_IOToggle.ewp</path>
+  </project>
+  <batchBuild />
+</workspace>

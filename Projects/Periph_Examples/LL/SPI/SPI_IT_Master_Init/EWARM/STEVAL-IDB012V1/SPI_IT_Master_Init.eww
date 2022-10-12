@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\SPI_IT_Master_Init.ewp</path>
+  </project>
+<batchBuild>
+    <batchDefinition>
+      <name>BUILD_ALL</name>
+    <member>
+        <project>SPI_IT_Master_Init</project>
+      <configuration>Release</configuration>
+      </member>
+    <member>
+        <project>SPI_IT_Master_Init</project>
+      <configuration>8bit</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\BLE_SerialPort.ewp</path>
+  </project>
+<batchBuild>
+    <batchDefinition>
+      <name>all</name>
+    <member>
+        <project>BLE_SerialPort</project>
+      <configuration>Client</configuration>
+      </member>
+    <member>
+        <project>BLE_SerialPort</project>
+      <configuration>Server</configuration>
+      </member>
+    <member>
+        <project>BLE_SerialPort</project>
+      <configuration>Server_HigherApp_OTA</configuration>
+      </member>
+    <member>
+        <project>BLE_SerialPort</project>
+      <configuration>Server_LowerApp_OTA</configuration>
+      </member>
+    <member>
+        <project>BLE_SerialPort</project>
+      <configuration>Server_Use_OTA_ServiceManager</configuration>
+      </member>
+    <member>
+        <project>BLE_SerialPort</project>
+      <configuration>Client_LongWrites</configuration>
+      </member>
+    <member>
+        <project>BLE_SerialPort</project>
+      <configuration>Server_LongWrites</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+
+

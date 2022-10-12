@@ -1,0 +1,6 @@
+<workspace>
+  <project>
+    <path>$WS_DIR$\CORTEXM_ModeP.ewp</path>
+  </project>
+  <batchBuild />
+</workspace>
